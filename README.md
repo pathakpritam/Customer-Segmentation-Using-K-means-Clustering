@@ -1,9 +1,9 @@
-Overview:-
+# Overview:-
 
 To segment customers into distinct groups based on their annual income and spending score to enable targeted marketing and personalized strategies.
 
 
-Technique:-
+# Technique:-
 
 K-means Clustering Algorithm:
 Initialization: Choose the number of clusters (k) and initialize cluster centroids randomly.
@@ -12,7 +12,7 @@ Update: Recalculate the centroid of each cluster based on the assigned points.
 Iteration: Repeat the assignment and update steps until centroids stabilize or a maximum number of iterations is reached.
 
 
-Methodology:
+# Methodology:
 
 Data Preparation: Clean and normalize the dataset
 Cluster Selection: Determine the optimal number of clusters (k) using methods like the Elbow Method 
@@ -20,7 +20,7 @@ K-means Clustering: Apply the k-means algorithm to segment customers into k clus
 Analysis: Interpret the characteristics of each cluster to understand different customer segments.
 
 
-Result:-
+# Result:-
 Cluster Characteristics:
 
 Cluster 1: Customers with high annual income and high spending scores.
@@ -28,7 +28,8 @@ Cluster 2: Customers with low annual income and low spending scores.
 Cluster 3: Customers with moderate annual income and varying spending scores.
 
 
-Conclusion:-
+# Conclusion:-
+
 Customer Segmentation: The k-means clustering technique effectively segmented customers into distinct groups based on income and spending behavior.
 Actionable Insights: Businesses can target marketing strategies and tailor product recommendations based on cluster characteristics.
 For instance, high-income, high-spending customers could be offered premium products, while low-income, low-spending customers could be targeted with budget-friendly options.
